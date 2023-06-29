@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="juego.js"></script>
+</head>
+<body class="cuerpo2">
+    <div class="contenedor2">
+        <h1 class="atadef">ATACAR</h1>
+        <div class="mensaje"></div>
+        <img src="img/dark_rider-character.webp" class="ata1">
+        <img src="img/force_mage-character.webp" class="ata2">
+        <img src="img/agua.png" class="agua" onclick="calculardano(0,Math.floor(Math.random() * 3),0)">
+        <img src="img/fuego.png" class="fuego" onclick="calculardano(1,Math.floor(Math.random() * 3),0)">
+        <img src="img/trueno.png" class="rayo" onclick="calculardano(2,Math.floor(Math.random() * 3),0)">
+    </div>
+</body>
+</html>

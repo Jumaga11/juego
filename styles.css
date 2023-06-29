@@ -1,0 +1,93 @@
+.cuerpo{
+    background: #191c29;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /*position: relative;
+    width: 512px;
+    height: 360px;
+    border: 2px solid yellow;
+    background-color: blue;*/
+}
+.cuerpo2{
+    background-color:  #191c29;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}
+.contenedor2{
+    position: relative;
+    width: 1020px;
+    height: 540px;
+   
+}
+.contenedor2 img.agua{
+    position: absolute;
+    width: 40px;
+    top: 90%;
+    left: 30%;
+}
+
+.contenedor2 img.fuego{
+    position: absolute;
+    width: 40px;
+    top: 90%;
+    left: 45%;
+}
+
+.contenedor2 img.rayo{
+    position: absolute;
+    width: 40px;
+    top: 90%;
+    left: 60%;
+}
+
+
+
+.contenedor2 div.mensaje{
+    font-size: 30px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(226, 43, 43);
+}
+
+.contenedor2 img.ata1{    
+    position: absolute;    
+    top:-10%; 
+    left:-25%;
+    width: 500px;
+    
+}
+
+.contenedor2 img.ata2{    
+    position: absolute;    
+    top:-10%; 
+    left:70%;
+    width: 500px;
+}
+
+.piepag1{
+    text-decoration-color: white;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor2 h1.atadef{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    
+}
